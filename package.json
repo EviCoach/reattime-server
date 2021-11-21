@@ -1,0 +1,24 @@
+{
+  "name": "realtime-server",
+  "version": "1.0.0",
+  "description": "A node real time chat server",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EviCoach/reattime-server.git"
+  },
+  "keywords": [
+    "realtime",
+    "server",
+    "chat"
+  ],
+  "author": "Evi Owhotemu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EviCoach/reattime-server/issues"
+  },
+  "homepage": "https://github.com/EviCoach/reattime-server#readme"
+}
