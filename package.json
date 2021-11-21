@@ -2,9 +2,12 @@
   "name": "realtime-server",
   "version": "1.0.0",
   "description": "A node real time chat server",
+  "type": "module",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +23,10 @@
   "bugs": {
     "url": "https://github.com/EviCoach/reattime-server/issues"
   },
-  "homepage": "https://github.com/EviCoach/reattime-server#readme"
+  "homepage": "https://github.com/EviCoach/reattime-server#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "socket.io": "^4.4.0"
+  }
 }
